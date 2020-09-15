@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biếnnn</title>
+</head>
+<body>
+<script type="text/javascript">
+    function nhapdl() {
+        let ly = document.getElementById("l").value;
+        let hoa = document.getElementById("h").value;
+        let sinh = document.getElementById("s").value;
+        let tb = ((parseFloat(ly) + (parseFloat(hoa)) + (parseFloat(sinh)))) / 3;
+        alert("Điểm trung bình 3 môn là: " + tb);
+    }
+</script>
+<form>
+    Nhập điểm lý:<input type="text" id="l" /> <br>
+    Nhập điểm hóa:<input type="text" id="h" /> <br>
+    Nhập điểm sinh:<input type="text" id="s" /> <br>
+    <br> <input type="button" value="Tính" onclick="nhapdl()"/>
+</form>
+</body>
+</html>
